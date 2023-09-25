@@ -10,6 +10,7 @@ self.addEventListener('push', function(e) {
         },
         actions: []
     }
+    console.log(e.data)
     e.waitUntil(
 
         self.registration.showNotification('test message', options)
