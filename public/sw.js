@@ -11,6 +11,7 @@ self.addEventListener('push', function(e) {
     }
     console.log(e.data)
     console.log(e.data.text());
+    console.log(e.data.json())
     e.waitUntil(
 
         self.registration.showNotification('test message', options)
