@@ -1,4 +1,5 @@
 name: 'Close stale issues and PRs'
+permissions: {}
 on:
   schedule:
     - cron: '*/5 * * * *'
